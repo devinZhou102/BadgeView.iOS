@@ -27,6 +27,7 @@ namespace BadgeViewDemo
             BadgeView.iOS.LFBadge badge = new BadgeView.iOS.LFBadge();
             badge.Count = "12";
             badge.NeedDisappearEffects = true;
+            badge.ClearBlock = new Action(()=> { });
             badge.AddToView(sender);
         }
     }
