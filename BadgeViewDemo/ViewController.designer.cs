@@ -11,8 +11,15 @@ using UIKit;
 
 namespace BadgeViewDemo
 {
-    [Register("ViewController")]
+    [Register ("ViewController")]
     partial class ViewController
     {
+        [Action ("UIButton197_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton197_TouchUpInside (UIKit.UIButton sender);
+
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

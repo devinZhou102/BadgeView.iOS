@@ -21,5 +21,13 @@ namespace BadgeViewDemo
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
+
+        partial void UIButton197_TouchUpInside(UIButton sender)
+        {
+            BadgeView.iOS.LFBadge badge = new BadgeView.iOS.LFBadge();
+            badge.Count = "12";
+            badge.NeedDisappearEffects = true;
+            badge.AddToView(sender);
+        }
     }
 }

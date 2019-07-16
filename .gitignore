@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BadgeView.iOS/bin/Debug
+/BadgeView.iOS/obj/Debug
+/BadgeViewDemo/bin/iPhoneSimulator/Debug
+/BadgeViewDemo/obj
+/.vs/BadgeView.iOS
