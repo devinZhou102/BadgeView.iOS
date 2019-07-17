@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>BadgeView.iOS</id>
+        <version>1.0.0.0</version>
+        <description> Xamarin.iOS Binding Library - LFBadge </description>
+        <authors>devinzhou</authors>
+        <owners>devinzhou</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Devin - BadgeView.iOS</title>
+        <releaseNotes>
+            First Release
+        </releaseNotes>
+        <summary> Xamarin.iOS Binding Library - LFBadge.</summary>
+        <!-- <iconUrl></iconUrl> -->
+        <projectUrl>https://github.com/devinZhou102/BadgeView.iOS</projectUrl>
+        <copyright>Copyright (c) 2019-present Devin</copyright>
+        <tags>Xamarin.iOS,Xamarin.Forms, BadgeView</tags>
+        
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <!-- iOS -->
+        <file src="BadgeView.iOS\bin\Release\BadgeView.iOS.*" target="lib\Xamarin.iOS10"  />
+        
+        
+    </files>
+</package>
